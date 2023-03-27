@@ -234,6 +234,7 @@ private static final long FASTEST_INTERVAL = 1000*5;
     int PERMISSION_ID = 44;
 
 
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
